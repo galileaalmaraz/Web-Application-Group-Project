@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+
+body {
+    background-color: #F7F4EC;
+    font-family: 'Tenor Sans', sans-serif;
+}
+
+header {
+    width: 80%;
+    height: 95vh;
+    /* border: 1px solid #000; */
+    margin: auto;
+}
+
+header nav {
+    width: 95%;
+    height: 7%;
+    /* border: 1px solid #000; */
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #433F30;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    padding: 3px 15px;
+}
+
+header nav ul li :nth-last-child(1) {
+    /* background: #ff0000; */
+    /* border-radius: 20px; */
+    padding: 5px 20px;
+}
+
+header nav ul li :nth-last-child(1) a {
+    color: #fff;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #433F30;
+    font-size: 13px;
+    font-weight: 500;
+    transition: .3s linear;
+}
+
+header nav ul li a :hover {
+    color:gray;
+}
+
+header nav .bi-three-dots {
+    display: none;
+}
+
+header nav .logo img {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+    /* margin-left: 5px; */
+}
+
+header .content {
+    position: relative;
+    width: 100%;
+    height: 93%;
+    /* border: 1px solid #000; */
+}
+
+header .content::before {
+    content: '';
+    position: absolute;
+    width: 440px;
+    height: 440px;
+    /* border: 1px solid #000; */
+    background: url('img/TexasIcon.png')no-repeat center center/cover;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+header .content .cont_bx {
+    width: 500px;
+    height: auto;
+    color: #433F30;
+    padding: 30px;
+    position: fixed;
+    left: 50%;
+    top: 15%;
+}
+
+header .content .cont_bx h1 {
+    font-size: 35px;
+    line-height: 40px;
+    font-weight: 800;
+}
+
+header .content .cont_bx p {
+    font-size: 24.6px;
+    font-weight: 400;
+}
+
+header .content .cont_bx button {
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 2px solid #4E62A9;
+    background: #4E62A9;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    transition: .3s linear;
+}
+
+header .content .cont_bx button:hover {
+    background-color: #B2BDCF;
+    border: 2px #B2BDCF;
+}
+
+/* header .trip_bx {
+    position: relative;
+    width: 95%;
+    height: auto;
+    margin: auto;
+    border: 1px solid #000;
+} */
+
+/* header .trip_bx .search_bx {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F7F4EC;
+    border: 5px;
+    box-shadow: 0px 10px 25px rgb(114, 114, 114);
+    z-index: 1;
+}
+
+header .trip_bx.search_bx .card{
+    width: 200px;
+    height: 100px;
+    border: 1px solid #000;
+} */
